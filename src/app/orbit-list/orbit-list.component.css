@@ -3,6 +3,20 @@
     color: #fff;
 }
 
+#tableFormat {
+    margin: auto;
+    width: 50%;
+    /* padding: 1rem; */
+}
+
+/* td { 
+    background-color: #fafafa;
+}
+
+tr {
+    background-color: #f4f0ec;
+} */
+
 .warning {
     background-color: #da8a8a;
 }
