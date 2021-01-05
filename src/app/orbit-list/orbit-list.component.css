@@ -1,6 +1,6 @@
 .sortable {
     cursor: pointer;
-    color: #dd5;
+    color: #fff;
 }
 
 .warning {
@@ -17,8 +17,8 @@ table {
 }
 
 .header-row {
-    background: #34495E;
-    color: #fff
+    background: #6441A4;
+    color: #fff;
 }
 
 th, td {

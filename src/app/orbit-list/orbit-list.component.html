@@ -12,8 +12,8 @@
         <tr *ngFor="let satellite of satellites">{{ satellite.name }}
         </tr>
     </td>
-    <td [class.warning]="changeColor">
-        <tr *ngFor="let satellite of satellites">{{ satellite.type }}
+    <td>
+        <tr [class.warning]="satellite.shouldShowWarning()" *ngFor="let satellite of satellites">{{ satellite.type }}
         </tr>
     </td>
     <td>
